@@ -4,6 +4,7 @@ import Gallery from './components/Gallery'
 import SearchBar from './components/SearchBar'
 import AlbumView from './components/AlbumView'
 import ArtistView from './components/ArtistView'
+import { Fragment } from 'react/cjs/react.production.min'
 import './App.css'
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
     }
 
     return (
-        <div>
+        <div className="App">
         {message}
             <Router>
                 <Routes>
