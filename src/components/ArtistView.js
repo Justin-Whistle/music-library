@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom'   
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 function ArtistView () {
     const { id } = useParams() // Take the record id object and set to useParams
